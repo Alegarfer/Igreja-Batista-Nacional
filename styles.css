@@ -3,9 +3,9 @@
 
 :root {
     --color-primary-1: #f0f8f0;
-    --color-primary-2: #e6eed6;
+    --color-primary-2: #9da78a;
     --color-primary-3: #c3d9af;
-    --color-primary-4: rgb(144, 238, 144);
+    --color-primary-4: rgb(240, 224, 190);
     --color-primary-5: #047713;
     --color-primary-6: #a50505;
     --color-primary-7: #8b2222;
@@ -290,7 +290,7 @@ header {
     margin-top: 32px;
 }
 
-.burguer {
+.culto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -304,7 +304,7 @@ header {
     overflow: hidden;
 }
 
-.burguer-heart {
+.culto-heart {
     position: absolute;
     background-color: var(--color-primary-6);
     display: flex;
@@ -319,16 +319,16 @@ header {
     border-radius: 0px 37.5px 0px 42.5px;
 }
 
-.burguer-description {
+.culto-description {
     color: #434343;
     text-align: center;
 }
 
-.burguer-rate i {
+.culto-rate i {
     color: var(--color-primary-6);
 }
 
-.burguer-price {
+.culto-price {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -340,13 +340,13 @@ header {
         justify-content: center;
     }
 
-    .burguer {
+    .culto {
         width: calc(50% - 12px);
     }
 }
 
 @media screen and (max-width: 600px) {
-    .burguer {
+    .culto {
         width: 100%;
     }
 
