@@ -279,10 +279,10 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 110vh;
 }
 
-#burguers {
+#cultos{
     width: 100%;
     display: flex;
     justify-content: center;
